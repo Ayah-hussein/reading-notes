@@ -9,13 +9,13 @@ To create a heading, add one to six # symbols before your heading text. The numb
 
 ### Styling text
 
-| **Style**                  | **Syntax**         | **Keyboard                               | shortcut**                         | **Example**                 | **Output** |
+| **Style**      | **Syntax**         | **Keyboard shortcut**    | **Example**     | **Output** |
 | ---------------------- | -------------- | -------------------------------------- | -------------------------------- | ----------------------- | ------ |
-| Bold                   | ** ** or __ __ | command/control + b                    | **This is bold text**            | This is bold text       |
-| Italic                 | * * or _ _     | command/control + i                    | *This text is italicized*        | This text is italicized |
-| Strikethrough          | ~~ ~~          | ~~This was mistaken text~~             | This was mistaken text           |
-| Bold and nested italic | ** ** and _ _  | **This text is _extremely_ important** | This text is extremely important |
-| All bold and italic    | *** ***        | ***All this text is important***       | All this text is important       |
+| Bold       | ** ** or __ __ | command/control + b    | **This is bold text**      | This is bold text       |
+| Italic   | * * or _ _     | command/control + i    | *This text is italicized*  | This text is italicized |
+| Strikethrough          | ~~ ~~  |        | ~~This was mistaken text~~             | This was mistaken text           |
+| Bold and nested italic | ** ** and _ _  |  | **This text is _extremely_ important** | This text is extremely important |
+| All bold and italic    | \*** \***        |  |***All this text is important***       | All this text is important       |
 
 ### Quoting text
 You can quote text with a >.
@@ -46,7 +46,7 @@ You can create a new paragraph by leaving a blank line between lines of text.
 You can tell GitHub to ignore (or escape) Markdown formatting by using \ before the Markdown character.
 
 ### to insert an image:
-Format: ![Alt Text](url)
+Format: ![](url)
 
 ### Tables
 You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |
