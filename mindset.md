@@ -15,9 +15,9 @@ the hallmark of the  ***growth mindest*** is a passion for stretching and pushin
 * Focus on the process and learning without worrying about the outcome
 * Leads to collaboration and innovation 
 
-### 3  **reminders** to keep myself in a growth mindset:
+###   **reminders** to keep myself in a growth mindset:
 1. View challenges as opportunities.
 2. Replace the word “failing” with the word “learning.”
 3. Place effort before talent.
 
-For more *** info *** check this [mindset](https://www.atlassian.com/blog/inside-atlassian/growth-mindset)
+For more info check this [mindset](https://www.atlassian.com/blog/inside-atlassian/growth-mindset)
