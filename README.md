@@ -11,7 +11,7 @@ My bachelor degree is in *Internet Technology* and my Master degree is in *Infor
 | definitions       |   [page 2](https://ayah-hussein.github.io/reading-notes/definitions)   |
 | common extensions |     [page 3](https://ayah-hussein.github.io/reading-notes/common)      |
 | markdown          |    [summary](summary%20of%20md.md)                                     |
-| seeing remote     |    [remte](seeing%20remote.md)
+| seeing remote     |    [remote](seeing%20remote.md)
 
 
 **[Markdown Summary](summary%20of%20md.md)**
