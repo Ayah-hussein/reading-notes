@@ -1,7 +1,7 @@
 # reading-notes
 
-I'm **Ayah hussein alzyoud** 
-My bachelor degree is in *Internet Technology* and my Master degree is in *Information and Communication Technology in Education*.
+I'm **Ayah hussein alzyoud**
+My bachelor degree is in _Internet Technology_ and my Master degree is in _Information and Communication Technology in Education_.
 
 | Reads             |                                  Link                                  |
 | ----------------- | :--------------------------------------------------------------------: |
@@ -13,10 +13,7 @@ My bachelor degree is in *Internet Technology* and my Master degree is in *Infor
 | markdown          |                    [summary](summary%20of%20md.md)                     |
 | seeing remote     |                      [remote](seeing%20remote.md)                      |
 | HTML summary      |                         [HTML](html%20summ.md)                         |
-
+| Javascript summ.  |                      [JS_summary] (js_summary.md)                      |
+| loops |  [loops] (loops_summ.md)| 
 
 **[Markdown Summary](summary%20of%20md.md)**
-
-
-
-  
