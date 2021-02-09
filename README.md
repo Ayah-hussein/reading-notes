@@ -17,5 +17,6 @@ My bachelor degree is in _Internet Technology_ and my Master degree is in _Infor
 | loops             |                         [loops](loops_summ.md)                         |
 | CSS               |                             [CSS](css.md)                              |
 | CSS Colors        |                       [CSS Color](css_colors.md)                       |
+| JS Functions      |                       [JS Function](js_function)                       |
 
 **[Markdown Summary](summary%20of%20md.md)**
