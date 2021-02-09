@@ -13,7 +13,7 @@ My bachelor degree is in _Internet Technology_ and my Master degree is in _Infor
 | markdown          |                    [summary](summary%20of%20md.md)                     |
 | seeing remote     |                      [remote](seeing%20remote.md)                      |
 | HTML summary      |                         [HTML](html%20summ.md)                         |
-| Javascript summ.  |                      [JS_summary] (js_summary.md)                      |
-| loops |  [loops] (loops_summ.md)| 
+| Javascript summ   |                      [JS_summary](js_summary.md)                       |
+| loops             |                         [loops](loops_summ.md)                         |
 
 **[Markdown Summary](summary%20of%20md.md)**
