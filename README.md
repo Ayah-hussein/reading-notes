@@ -3,7 +3,7 @@
 I'm **Ayah hussein alzyoud**
 My bachelor degree is in _Internet Technology_ and my Master degree is in _Information and Communication Technology in Education_.
 
-| Reads             |                                  Link                                  |
+| **Reads**         |                                **Link**                                |
 | ----------------- | :--------------------------------------------------------------------: |
 | Main              |         [Main](https://ayah-hussein.github.io/reading-notes/)          |
 | Mindset           | [growth mindset](https://ayah-hussein.github.io/reading-notes/mindset) |
@@ -20,3 +20,23 @@ My bachelor degree is in _Internet Technology_ and my Master degree is in _Infor
 | JS Functions      |                       [JS Function](js_function)                       |
 
 **[Markdown Summary](summary%20of%20md.md)**
+
+# Code 201 Reading Notes
+
+| **Reads** | **Link** |
+| --------- | :------: |
+|           |          |
+|           |          |
+|           |          |
+|           |          |
+|           |          |
+|           |          |
+|           |          |
+|           |          |
+|           |          |
+|           |          |
+|           |          |
+|           |          |
+|           |          |
+|           |          |
+|           |          |
