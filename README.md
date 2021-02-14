@@ -23,22 +23,22 @@ My bachelor degree is in _Internet Technology_ and my Master degree is in _Infor
 
 # Code 201 Reading Notes
 
-| **Reads** | **Link** |
-| --------- | :------: |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
+| **Reads** |        **Link**        |
+| --------- | :--------------------: |
+| Html & JS | [HTML+JS](class-02.md) |
+|           |                        |
+|           |                        |
+|           |                        |
+|           |                        |
+|           |                        |
+|           |                        |
+|           |                        |
+|           |                        |
+|           |                        |
+|           |                        |
+|           |                        |
+|           |                        |
+|           |                        |
+|           |                        |
 
-[***HTML and Javascript summary***](class-01.md) 
+[**_HTML and Javascript summary_**](class-01.md)
