@@ -29,8 +29,8 @@ When the browser comes across two or more spaces next to each other, it only dis
 
 **Line break and Horizontal rule:**
 
-**</br>:** if you wanted to add a line break inside the middle of a paragraph you can use the line break tag < br />.
-**<hr/>:** you can add a horizontal rule between sections using the < hr /> tag.
+**< /br>:** if you wanted to add a line break inside the middle of a paragraph you can use the line break tag < br />.
+**< hr/>:** you can add a horizontal rule between sections using the < hr /> tag.
 
 ***Visual Editors & Their Code views***
 
