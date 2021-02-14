@@ -1,7 +1,8 @@
 # HTML and JAVASCRIPT
 we have two kinds of markup:
 
-● Structural markup: the elements that you can use to describe both headings and paragraphs
+● Structural markup: the elements that you can use to describe both headings and paragraphs.
+
 ● Semantic markup: which provides extra information; such as where emphasis is placed in a sentence, that something you have written is a quotation (and who said it), the meaning of acronyms, and so on.
 
 **HTML has six "levels" of headings:**
@@ -208,5 +209,5 @@ there are two components to a decision:
 -	 one set if the condition evaluates to true
 -	another set if the condition is false
 
-3.	**Switch:**
+3. **Switch:**
 A switch statement starts with a variable called the switch value. Each case indicates a possible value for this variable and the code that should run if the variable matches that value. 
