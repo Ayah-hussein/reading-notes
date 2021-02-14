@@ -11,25 +11,6 @@
 
 ## HTML Describes the Structure of Pages
 
-**Ex:**
-
-<html>
-<body>
-<h1>This is the Main Heading</h1>
-<p>This text might be an introduction to the rest of
-the page. And if the page is a long one it might
-be split up into several sub-headings.<p>
-<h2>This is a Sub-Heading</h2>
-<p>Many long articles have sub-headings so to help
-you follow the structure of what is being written.
-There may even be sub-sub-headings (or lower-level
-headings).</p>
-<h2>Another Sub-Heading</h2>
-<p>Here you can see another sub-heading.</p>
-</body>
-</html>
-
-
 
 ## HTML Uses Elements to Describe the Structure of Pages called Tags 
 
@@ -37,7 +18,7 @@ Tags act like containers.
  They tell you something about the information that lies between their opening and closing tags.
 - Tags has attributes: 
 Attributes provide additional information about the contents of an element. They appear on the opening tag of the element and are made up of two parts: a name and a value, separated by an equals sign.
-**Ex:** <p lang="en-us">Paragraph in English</p>
+
 
 ## HTML files should saved with ( .html ) extension
 
@@ -50,121 +31,51 @@ Attributes provide additional information about the contents of an element. They
 -	Attributes require a name and a value.
 -	To learn HTML you need to know what tags are available for you to use, what they do, and where they can go.
 
-- in html <!-- comment goes here -->
+- in html "<!-- comment goes here -->"
 - DOCTYPES tell browsers which version of HTML you are using.
  - The id and class attributes allow you to identify particular elements.
-
-**Ex:** <p class="important">
 
 *Block Elements:*
 
 Some elements will always appear to start on a new line in the browser window. These are known as block level elements.
 Examples of block elements are
-<h1>, <p>, <ul>, and <li>.
+h1 , p ,  ul , and li.
 
 *Inline Elements:*
 
 Some elements will always appear to continue on the same line as their neighbouring elements. These are known as inline elements.
 Examples of inline elements are
-<a>, <b>, <em>, and <img>.
+a, b, em, and img.
 
 ## Grouping Text & Elements In a Block
-<div>
-The <div> element allows you to group a set of elements together in one block-level box.
+(div)
+The (div) element allows you to group a set of elements together in one block-level box.
 
-**Ex:** 
-<div id="header">
-<img src="images/logo.gif" alt="Anish Kapoor" />
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="biography.html">Biography</a></li>
-<li><a href="works.html">Works</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-</div><!-- end of header -->
 
 ## Grouping Text & Elements Inline:
-<span> 
-The <span> element acts like an inline equivalent of the <div> element. It is used to either:
+(span) 
+The (span) element acts like an inline equivalent of the (div) element. It is used to either:
 1. Contain a section of text where there is no other suitable element to differentiate it from its surrounding text
 2. Contain a number of inline elements.
-Ex:
-<p>Anish Kapoor won the Turner Prize in 1991 and
-exhibited at the <span class="gallery">Tate
-Modern</span> gallery in London in 2003.</p>
 
 **Iframes:**
 An iframe is like a little window that has been cut into your page — and in that window you can see another page. The term iframe is an abbreviation of inline frame.
 
-**Ex:**
-<iframe
-width="450"
-height="350"
-src="http://maps.google.co.uk/maps?q=moma+new+york
-&amp;output=embed">
-</iframe>
 
-
-- The <meta> tag allows you to supply all kinds of information about your web page.
+- The (meta) tag allows you to supply all kinds of information about your web page.
 Escape characters are used to include special characters in your pages such as <, >, and ©.
-
-
-**Example**
-### HTML5 LAYOUT
-
-
-margin: 10px 0px 5px 0px;
-padding: 0px;}
-h3 {
-margin: 0px 0px 10px 0px;
-color: #de6581;}
-aside h2 {
-padding: 30px 0px 10px 0px;
-color: #de6581;}
-footer {
-font-size: 80%;
-padding: 7px 0px 0px 20px;}
-</style>
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-</head>
-<body>
-<div class="wrapper">
-<header>
-<h1>Yoko's Kitchen</h1>
-<nav>
-<ul>
-<li><a href="" class="current">home</a></li>
-<li><a href="">classes</a></li>
-<li><a href="">catering</a></li>
-<li><a href="">about</a></li>
-<li><a href="">contact</a></li>
-</ul>
-</nav>
-</header>
-<section class="courses">
-<article>
-<figure>
-<img src="images/bok-choi.jpg" alt="Bok Choi" />
-<figcaption>Bok Choi</figcaption>
-</figure>
-<hgroup>
-<h2>Japanese Vegetarian</h2>
-<h3>Five week course in London</h3>
-</hgroup>
 
 
 ## HTML5 Layout:
 HTML has several semantic elements that define the different parts of a web page:
--	<header> - Defines a header for a document or a section
--	<nav> - Defines a set of navigation links
--	<section> - Defines a section in a document
--	<article> - Defines an independent, self-contained content
--	<aside> - Defines content aside from the content (like a sidebar)
--	<footer> - Defines a footer for a document or a section
--	<details> - Defines additional details that the user can open and close on demand
--	<summary> - Defines a heading for the <details> element
+-	header - Defines a header for a document or a section
+-	nav - Defines a set of navigation links
+-	section - Defines a section in a document
+-	article - Defines an independent, self-contained content
+-	aside - Defines content aside from the content (like a sidebar)
+-	footer - Defines a footer for a document or a section
+-	details - Defines additional details that the user can open and close on demand
+-	summary - Defines a heading for the (details) element
 
 •	The new HTML5 elements indicate the purpose of different parts of a web page and help to describe its structure.
 •	 The new elements provide clearer code (compared with using multiple
