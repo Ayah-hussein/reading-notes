@@ -9,10 +9,10 @@
 - The web server then sends the page you requested back to your web browser.
 
 
-## HTML Describes the Structure of Pages
+***HTML Describes the Structure of Pages***
 
 
-## HTML Uses Elements to Describe the Structure of Pages called Tags 
+**HTML Uses Elements to Describe the Structure of Pages called Tags** 
 
 Tags act like containers.
  They tell you something about the information that lies between their opening and closing tags.
@@ -20,7 +20,7 @@ Tags act like containers.
 Attributes provide additional information about the contents of an element. They appear on the opening tag of the element and are made up of two parts: a name and a value, separated by an equals sign.
 
 
-## HTML files should saved with ( .html ) extension
+*** HTML files should saved with ( .html ) extension***
 
 **Summary**
 -	HTML pages are text documents.
@@ -30,8 +30,6 @@ Attributes provide additional information about the contents of an element. They
 -	Opening tags can carry attributes, which tell us more about the content of that element.
 -	Attributes require a name and a value.
 -	To learn HTML you need to know what tags are available for you to use, what they do, and where they can go.
-
-- in html "<!-- comment goes here -->"
 - DOCTYPES tell browsers which version of HTML you are using.
  - The id and class attributes allow you to identify particular elements.
 
@@ -69,12 +67,19 @@ Escape characters are used to include special characters in your pages such as <
 ## HTML5 Layout:
 HTML has several semantic elements that define the different parts of a web page:
 -	header - Defines a header for a document or a section
+
 -	nav - Defines a set of navigation links
+
 -	section - Defines a section in a document
+
 -	article - Defines an independent, self-contained content
+
 -	aside - Defines content aside from the content (like a sidebar)
+
 -	footer - Defines a footer for a document or a section
+
 -	details - Defines additional details that the user can open and close on demand
+
 -	summary - Defines a heading for the (details) element
 
 •	The new HTML5 elements indicate the purpose of different parts of a web page and help to describe its structure.
@@ -83,7 +88,7 @@ elements).
 •	 Older browsers that do not understand HTML5 elements need to be told which elements are block-level elements.
 •	To make HTML5 elements work in Internet Explorer 8 (and older versions of IE), extra JavaScript is needed, which is available free from Google.
 
-### WireFrame:
+***WireFrame:***
 A wireframe is a simple sketch of the key information that needs to go on each page of a site. It shows the hierarchy of the information and how much space it might require.
 
 ### Summary:
@@ -98,8 +103,11 @@ A wireframe is a simple sketch of the key information that needs to go on each p
 ## javascript
 You can use JavaScript to add or select elements, attributes, and text to the page, or remove them.
 - REACT TO EVENTS You can specify that a script should run when a specific event has occurred.
+
 - JavaScript language can be used to tell browsers what you want them to do.
+
 - A script is a series of instructions that a computer can follow to achieve a goal.
+
 ### WRITING A SCRIPT
 
  To write a script, you need to first state your goal and then list the tasks that need to be completed in order to achieve it.
@@ -110,6 +118,7 @@ Start with the big picture of what you want to achieve, and break that down into
 3. CODE EACH STEP
 
 ### RULES FOR NAMING VARIABLES:
+
 1.	The name must begin with a letter, dollar sign ($),or anunderscore (_).
 2.	The name can contain letters,numbers, dollar sign ($), or an underscore (_).
 3.	You cannot use keywords or reserved words.
@@ -118,19 +127,30 @@ Start with the big picture of what you want to achieve, and break that down into
 6.	If your variable name is made up of more than one word, use a capital letter for the first letter of every word after the first word.
 
 ### Types of operator:
+
 •	ASSIGNMENT OPERATORS
+
 •	COMPARISON OPERATORS
+
 •	ARITHMETIC OPERATORS
+
 •	LOGICAL OPERATORS
+
 •	STRING OPERATORS
 
 ### summary:
 •	A script is made up of a series of statements. Each statement is like a step in a recipe.
+
 •	Scripts contain very precise instructions. For example,you might specify that a value must be remembered before creating a calculation using that value.
+
 •	Variables are used to temporarily store pieces of information used in the script.
+
 •	Arrays are special types of variables that store more than one piece of related information.
+
 •	JavaScript distinguishes between numbers (0-9),strings (text), and Boolean values (true or false).
+
 •	Expressions evaluate into a single value.
+
 •	Expressions rely on operators to calculate a value.
 
 
