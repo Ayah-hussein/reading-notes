@@ -20,7 +20,7 @@ Tags act like containers.
 Attributes provide additional information about the contents of an element. They appear on the opening tag of the element and are made up of two parts: a name and a value, separated by an equals sign.
 
 
-*** HTML files should saved with ( .html ) extension***
+***HTML files should saved with ( .html ) extension***
 
 **Summary**
 -	HTML pages are text documents.
