@@ -67,7 +67,7 @@ Every box has a border (even if it is not visible or is specified to be 0 pixels
 Margins sit outside the edge of the border. You can set the width of a margin to create a gap between the borders of two adjacent boxes.
 **Padding**
 Padding is the space between the border of a box and any content contained within it. Adding padding can increase the readability of its contents.
-![img](./img/border-style.gif)
+
  
 
 ***Border Width***
@@ -79,7 +79,7 @@ using one of the following values:   thin  , medium  , thick
 You can control the style of a border using the border-style property. This property can take the following values:
 p.one {border-style: solid;}
 p.two {border-style: dotted;}
-![img](./img/PeSIJgif)
+
 
  **Border Color**
 It is possible to individually control the colors of the borders on different sides of a box using:
