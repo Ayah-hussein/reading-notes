@@ -3,41 +3,60 @@
 The < a> tag indicates where the hyperlink starts and the < /a> tag indicates where it ends. Whatever text gets added inside these tags, will work as a hyperlink. Add the URL for the link in the < a href=” ”>. Just keep in mind that you should use the < a>…< /a> tags inside < body>…< /body> tags.
 
 Ex: < a href="/about/about\*team.htm">team< /a>
-\*\*\_On larger websites**\* it's a good idea to organize your code by placing the pages for each different section of the site into a new folder. Folders on a website are sometimes referred to as directories.
+\*\*\_On **larger websites** it's a good idea to organize your code by placing the pages for each different section of the site into a new folder. Folders on a website are sometimes referred to as directories.
+
 Structure The diagram on the right shows the directory structure for a fictional entertainment listings website called ExampleArts. The top-level folder is known as the root folder. (In this example, the root folder is called examplearts.) The root folder contains all of the other files and folders for a website.
-Home pages
+
+***Home pages***
 The main homepage of a site written in HTML (and the home pages of each section in a child folder) is called index.html.
+
 **Absolute Hyperlinks**
+
 Absolute hyperlinks are complete addresses that contain all the elements of a URL. They always start with some version of http:// followed by the domain name (for example, www.designisphilosophy.com) and optionally a page/folder. Absolute hyperlinks are used when linking to pages outside of the current site that have a different domain name.
+
 **Relative Hyperlinks**
+
 Relative hyperlinks are addresses that are relative to the current domain or location. They only contain the name of the target page prefixed with any necessary folder moves (for example, default.html).
+
 **_Same Folder_**
+
 To link to a file in the same folder, just use the file name. (Nothing else is needed.)
+
 **_Child Folder_**
+
 For a child folder, use the name of the child folder, followed by a forward slash, then the file name.
 To link to music listings from the homepage:
 < a href="music/listings.html">Listings< /a>
+
 **_Grandchild Folder_**
+
 Use the name of the child folder, followed by a forward slash, then the name of the grandchild folder, followed by another forward slash, then the file name.
+
 To link to DVD reviews from the homepage:
 < a href="movies/dvd/reviews.html">
 Reviews< /a>
+
 **_Parent Folder_**
+
 Use ../ to indicate the folder above the current one, then follow it with the file name.
 Ex:
 To link to the homepage from the music reviews:
 < a href="../index.html">Home< /a>
+
 **_Grand Parent Folder_**
+
 Repeat the ../ to indicate that you want to go up two folders (rather than one), then follow it with the file name.
 To link to the homepage from the DVD reviews:
 < a href="../../index.html">Home< /a>
-**Root-relative Hyperlinks\*\*
+
+**Root-relative Hyperlinks**
 Root-relative hyperlinks are a subset of relative hyperlinks in which all the links are assumed to start from the root folder (domain name) of the site. They differ from the relative hyperlinks in that the address is prefixed by a forward slash (for example, /default.html).
 
 ### How to create mailto link in HTML
 
 The mailto link is written like regular link with extra parameters inside the href attribute:
 < a href="mailto:name@email.com">Link text</ a>
+
 | Parameter | Description |
 |----------------------|----------------------------------|
 |mailto:name@email.com | e-mail recipient address |
@@ -58,7 +77,10 @@ Values of the target Attribute:
 
 * inking to a Specific Part of the Same Page
   Using the id selector
-  In CSS, "id" is a selector that is used to designate an area that a link should point to, similar to anchor in HTML. The nice thing about using id is you can create a link to any element on the page, rather than only the top or bottom. In the following sections, you'll see how to apply id to an HTML tag, and then how to link to it. This example will link to the opening paragraph at the top of this page.
+  In CSS, "id" is a selector that is used to designate an area that a link should point to, similar to anchor in HTML. 
+  The nice thing about using id is you can create a link to any element on the page, rather than only the top or bottom.
+  
+   In the following sections, you'll see how to apply id to an HTML tag, and then how to link to it. This example will link to the opening paragraph at the top of this page.
 
 **create links to sections on the same page**
 
@@ -139,13 +161,13 @@ CSS frameworks aim to make your life easier by providing the code for common tas
 
 a **function** is a "subprogram" that can be called by code external (or internal in the case of recursion) to the function. Like the program itself, a function is composed of a sequence of statements called the function body. Values can be passed to a function, and the function will return a value.
 
-In JavaScript, functions are first-class objects, because they can have properties and methods just like any other object. What distinguishes them from other objects is that functions can be called. In brief, they are Function objects.
+- In JavaScript, functions are first-class objects, because they can have properties and methods just like any other object. What distinguishes them from other objects is that functions can be called. In brief, they are Function objects.
 
-Every function in JavaScript is a Function object. See Function for information on properties and methods of Function objects.
+- Every function in JavaScript is a Function object. See Function for information on properties and methods of Function objects.
 
-To return a value other than the default, a function must have a return statement that specifies the value to return. A function without a return statement will return a default value. In the case of a constructor called with the new keyword, the default value is the value of its this parameter. For all other functions, the default return value is undefined.
+- To return a value other than the default, a function must have a return statement that specifies the value to return. A function without a return statement will return a default value. In the case of a constructor called with the new keyword, the default value is the value of its this parameter. For all other functions, the default return value is undefined.
 
-The parameters of a function call are the function's arguments. Arguments are passed to functions by value. If the function changes the value of an argument, this change is not reflected globally or in the calling function. However, object references are values, too, and they are special: if the function changes the referred object's properties, that change is visible outside the function, as shown in the following example:
+- The parameters of a function call are the function's arguments. Arguments are passed to functions by value. If the function changes the value of an argument, this change is not reflected globally or in the calling function. However, object references are values, too, and they are special: if the function changes the referred object's properties, that change is visible outside the function, as shown in the following example:
 
 ex:
 
@@ -180,6 +202,8 @@ The this keyword does not refer to the currently executing function, so you must
 
 There is a special syntax for declaring functions (see function statement for details):
 
-function name([param], [param], ... [param]) {
+function name ([param], [param], ... [param]) {
 statements
 }
+
+..........................................................................................................
