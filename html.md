@@ -215,3 +215,4 @@ JavaScript can convert data types behind the scenes to complete an operation.
 
 *Falsy values* are treated as if they are false. The table to the left shows a high Score variable with a series of values, all of which are falsy.
 *Truthy values* are treated as if they are true. Almost everything that is not in the falsy table can be treated as if it were true.
+
