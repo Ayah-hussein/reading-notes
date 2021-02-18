@@ -170,7 +170,7 @@ background-color: rgba(0,0,0,0.5);}
 * CSS3 also allows you to specify colors as HSL values, with an optional opacity value. It is known as HSLA.
 
 
-# HTML HTML 
+# HTML Text 
 
 **Text Formatting**
 
