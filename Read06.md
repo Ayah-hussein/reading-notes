@@ -4,8 +4,8 @@ The HTML tables allow web authors to arrange data like text, images, links, othe
 
 The HTML tables are created using the `<table>` tag in which the `<tr>` tag is used to create table rows and `<td>` tag is used to create data cells. The elements under `<td>` are regular and left aligned by default.
 **Ex**
- < !DOCTYPE html> [ENTER][ENTER]
-< html>[ENTER][ENTER]
+ < !DOCTYPE html> [ENTER]
+< html>[ENTER]
 
    < head>[ENTER][ENTER]
       < title>HTML Table Cellpadding< /title>[ENTER][ENTER]
