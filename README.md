@@ -30,7 +30,7 @@ My bachelor degree is in _Internet Technology_ and my Master degree is in _Infor
 | SUMM (HTML/JS) |      [Part2](html.md)       |
 | html, js part2 | [html, js part2](read04.md) |
 | Read 05        |    [Read 05](read05.md)     |
-|                |                             |
+| Read 06        |    [Read 06](Read06.md)     |
 |                |                             |
 |                |                             |
 |                |                             |
