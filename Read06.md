@@ -3,32 +3,7 @@
 The HTML tables allow web authors to arrange data like text, images, links, other tables, etc. into rows and columns of cells.
 
 The HTML tables are created using the `<table>` tag in which the `<tr>` tag is used to create table rows and `<td>` tag is used to create data cells. The elements under `<td>` are regular and left aligned by default.
-**Ex**
- < !DOCTYPE html> [ENTER]
-< html>[ENTER]
 
-   < head>[ENTER][ENTER]
-      < title>HTML Table Cellpadding< /title>[ENTER][ENTER]
-   < /head>
-	[ENTER][ENTER]
-   < body>[ENTER][ENTER]
-      < table border = "1" cellpadding = "5" cellspacing = "5">[ENTER][ENTER]
-        < tr>
-            < th>Name</ th>[ENTER][ENTER]
-            < th>Salary< /th>[ENTER][ENTER]
-         < /tr>[ENTER][ENTER]
-         < tr>
-            < td>Ramesh Raman </ td>
-            < td>5000</ td>
-         </ tr>
-         < tr>
-            < td>Shabbir Hussein </ td>
-            < td>7000</ td>
-         < /tr>
-      < /table>
-   </ body>
-	
-</ html> 
 
 ## Objects and properties
 A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object. Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation:
@@ -134,21 +109,9 @@ Try the following example. It defines a function called sayHello that takes no p
 To invoke a function somewhere later in the script, you would simply need to write the name of that function as shown in the following code.
 
 **Ex:**
-< html>
-   < head>   
+
       < script type = "text/javascript">
          function sayHello() {
             document.write ("Hello there!");
          }
       < /script>
-      
-   < /head>
-   
-   < body>
-      < p>Click the following button to call the function< /p>      
-      < form>
-         < input type = "button" onclick = "sayHello()" value = "Say Hello">
-      < /form>      
-      < p>Use different text in write method and then try...< /p>
-   </ body>
-</ html>
