@@ -1,117 +1,51 @@
-# HTML Tables
+# The object literal 
+The object literal is one of the most popular patterns for creating objects in JavaScript because of its simplicity. ES6 makes the object literal more succinct and powerful by extending the syntax in some ways.
 
-The HTML tables allow web authors to arrange data like text, images, links, other tables, etc. into rows and columns of cells.
+**Object property initializer shorthand**
+Prior to ES6, an object literal is a collection of name-value pairs. For example:
 
-The HTML tables are created using the `<table>` tag in which the `<tr>` tag is used to create table rows and `<td>` tag is used to create data cells. The elements under `<td>` are regular and left aligned by default.
+function createMachine(name, status) {
+    return {
+        name: name,
+        status: status
+    };
+}
 
+**JavaScript** is a prototype based language, so everything is an ***object***. It is a must that language to provide easy constructs when it comes to objects creation, configuration and accessing prototypes.
 
-## Objects and properties
-A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object. Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation:
+- It’s a common task to define an object and setup it’s prototype. I always felt that setting up the prototype should be allowed directly in the object literal, using a single statement.
 
-objectName.propertyName
+- Unfortunately the limitations of the literal didn’t allow to achieve that with a straightforward solution. You had to use Object.create() in combination with the object literal to setup the prototype:
 
-object initializer, which is a comma-delimited list of zero or more pairs of property names and associated values of an object, enclosed in curly braces ({}):
-
-var myCar = {
-    make: 'Ford',
-    model: 'Mustang',
-    year: 1969
+var myProto = {
+  propertyExists: function(name) {
+    return name in this;
+  },
 };
+var myNumbers = Object.create(myProto);
+myNumbers['array'] = [1, 6, 7];
+myNumbers.propertyExists('array'); // => true
+myNumbers.propertyExists('collection'); // => false
+
+## JS DOM
+***The Document Object Model***, or the **“DOM”**, defines the logical structure of HTML documents & essentially acts as an interface to web pages. Through the use of programming languages such as JavaScript, we can access the DOM to manipulate websites and make them interactive.
+In this article we’re going to be working with the document object, taking a look at the DOM tree and nodes, and we’ll learn all about how to access and work with elements.
 
 
-## Defining methods
-A method is a function associated with an object, or, put differently, a method is a property of an object that is a function. Methods are defined the way normal functions are defined, except that they have to be assigned as the property of an object. See also method definitions for more details. An example is:
 
-**objectName.methodname = functionName;**
+**What is the DOM?**
 
-var myObj = {
-  myMethod: function(params) {
-    // ...do something
-  }
-
-  // OR THIS WORKS TOO
-
-  myOtherMethod(params) {
-    // ...do something else
-  }
-};
-where objectName is an existing object, methodname is the name you are assigning to the method, and functionName is the name of the function.
-
-- You can then call the method in the context of the object as follows:
-
-object.methodname(params);
-
-### Using this for object references
-JavaScript has a special keyword, this, that you can use within a method to refer to the current object. For example, suppose you have 2 objects, Managerand Intern. Each object have their own name, age and job.  In the function sayHi(), notice there is this.name. When added to the 2 objects they can be called and returns the 'Hello, My name is' then adds the name value from that specific object. As shown below. 
-
-const Manager = {
-  name: "John",
-  age: 27,
-  job: "Software Engineer"
-}
-const Intern= {
-  name: "Ben",
-  age: 21,
-  job: "Software Engineer Intern"
-}
-
-function sayHi() {
-    console.log('Hello, my name is', this.name)
-}
-
-// add sayHi function to both objects
-Manager.sayHi = sayHi;
-Intern.sayHi = sayHi;
-
-Manager.sayHi() // Hello, my name is John'
-Intern.sayHi() // Hello, my name is Ben'
-The this refers to the object that it is in. You can create a new function called howOldAmI()which logs a sentence saying how old the person is. 
-
-function howOldAmI (){
-  console.log('I am ' + this.age + ' years old.')
-}
-Manager.howOldAmI = howOldAmI;
-Manager.howOldAmI() // I am 27 years old.
+At its core a website must consist of an HTML document, an index.html. Using a browser we view the website, which renders from our HTML file/s and any CSS files which add style and layout rules.
 
 
- ## function
-  is a group of reusable code which can be called anywhere in your program. This eliminates the need of writing the same code again and again. It helps programmers in writing modular codes. Functions allow a programmer to divide a big program into a number of small and manageable functions.
+The browser also creates a representation of this document known as the Document Object Model. It’s through the use of the DOM, that JavaScript is able to access and alter the content and elements of the website.
+To view the DOM, using your web browser, right click anywhere on a page and choose “Inspect”. This will open up Developer Tools.
 
-Like any other advanced programming language, JavaScript also supports all the features necessary to write modular code using functions. You must have seen functions like alert() and write() in the earlier chapters. We were using these functions again and again, but they had been written in core JavaScript only once.
+***The Document Object***
+The document object is a built-in object, containing many properties and methods.
+We access and manipulate this object with JavaScript. And by manipulating the DOM, we can now make our web pages highly interactive! As we’re no longer limited to just building static sites with styled HTML content.
 
-JavaScript allows us to write our own functions as well. This section explains how to write your own functions in JavaScript.
+**The DOM Tree & Nodes**
+Largely due to the layout of the DOM, it’s often called the DOM Tree:
 
-Function Definition
-Before we use a function, we need to define it. The most common way to define a function in JavaScript is by using the function keyword, followed by a unique function name, a list of parameters (that might be empty), and a statement block surrounded by curly braces.
-
-Syntax
-The basic syntax is shown here.
-
-< script type = "text/javascript">
-   <!--
-      function functionname(parameter-list) {
-         statements
-      }
-   //-->
-< /script>
-Example
-Try the following example. It defines a function called sayHello that takes no parameters −
-
-< script type = "text/javascript">
-   <!--
-      function sayHello() {
-         alert("Hello there");
-      }
-   //-->
-< /script>
-
-**Calling a Function**
-To invoke a function somewhere later in the script, you would simply need to write the name of that function as shown in the following code.
-
-**Ex:**
-
-      < script type = "text/javascript">
-         function sayHello() {
-            document.write ("Hello there!");
-         }
-      < /script>
+![domtree](domtree.png)
