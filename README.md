@@ -33,7 +33,7 @@ My bachelor degree is in _Internet Technology_ and my Master degree is in _Infor
 | Read 06        |    [Read 06](read06.md)     |
 | Read 07        |    [Read 07](Read07.md)     |
 | Read 08        |    [Read 08](read08.md)     |
-|                |                             |
+| Read 09        |    [Read 09](Read09.md)     |
 |                |                             |
 |                |                             |
 |                |                             |
